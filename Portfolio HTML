@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="Imagens/icone.png">
+</head>
+<body>
+
+    <header>
+        <h1>Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <img src="Imagens/Andrey.png.jpg" alt="Foto de perfil">
+        <h2>Sobre Mim</h2>
+        <p>Comecei a me interessar pela Aréa da Tecnologia em 2020 quando ingressei no IFPR</p> 
+        <p>Apartir dali gostei muito da aréa e não consegui mais largar, tanto que dei continuidade nela </p> 
+        <p> Nós dias atuais estudo e Desenvolvimento de Sistemas na Unipar.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MYSQL</li>
+            <li>Java</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Projetos em JavaScript desenvolvidos com cada funcionalidade especifica de Uso.</p>
+            <a href="https://github.com/Andreylovis/UNIPAR_POO_VARIAVEIS">Ver mais</a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Projetos de Sites com suas funcionalidades e desenvolvimento.</p>
+            <a href="https://www.figma.com/design/nEg8qwLBDkyQgxtTCpudmd/Aula?node-id=0-1&p=f&t=LSfBt6wVSZcYx6bY-0">Ver mais</a>
+        </div>
+    </section>
+
+        <div>
+            <div class="contato">
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: Andreylovis28@gmail.com</p>
+        <p>Telefone: (49) 9 9945-2243</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/feed/">Meu-Linkedin</a></p>
+        <p>GitHub: <a href="https://github.com/Andreylovis">Meu-GitHub</a></p>
+    </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Andrey Carlos Lovis</p>
+    </footer>
+
+</body>
+</html>
